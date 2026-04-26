@@ -1,5 +1,5 @@
 function listarNumeros() {
-    for (let i = 0; i < 3; i++)
+    for (let i = 0; i <=3; i++)
         console.log(i)
 }
 
@@ -10,6 +10,8 @@ function ejecutar(numEjercicio) {
         listarNumerosReversa();
     } else if (numEjercicio == 3) {
         listarPares();
+    } else if (numEjercicio == 4) {
+        listarImpares();
     }
 }
 
@@ -21,5 +23,10 @@ function listarNumerosReversa() {
 
 function listarPares() {
     for (i = 0; i < 10; i += 2)
+        console.log(i)
+}
+
+function listarImpares() {
+    for (i = 1; i <= 7; i += 2)
         console.log(i)
 }
